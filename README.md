@@ -15,10 +15,10 @@ Chrome拡張機能です。
 1. `AutoKeyFill`のフォルダー内にあるファイルをすべてダウンロードする
 1. SRPで東北大IDとパスワードを入力しイメージマトリクス認証のページを開く
 1. F12を押下または右クリックして検証を選択
-1. ページ内の要素を選択して検査(Ctrl+Shift+C)をクリックし，イラストをクリックする
-![ページ内の要素を選択](./asset/1.png)<br><br>
-1. 検査画面で`<div~`からはじまり`</div>`でおわっているところから`image:url('/idp/tenant/0/images/imatrix/d1.gif')`を探す
-![HTML要素の確認](./asset/2.png)<br><br>
+1. ページ内の要素を選択して検査(Ctrl+Shift+C)をクリックし，イラストをクリックする![ページ内の要素を選択](https://github.com/suzuyuyuyu/SRP_AutoFillExtension/assets/133082232/f2d4de1f-33fe-4916-9688-df133254ae30)
+<br><br>
+1. 検査画面で`<div~`からはじまり`</div>`でおわっているところから`image:url('/idp/tenant/0/images/imatrix/d1.gif')`を探す![HTML要素の確認](https://github.com/suzuyuyuyu/SRP_AutoFillExtension/assets/133082232/680f7d5a-aaf2-4895-9282-d6313258dd10)
+<br><br>
 1. ここでの`d1`が対象のファイル名なのでこれを`script.js`の43行目あたりに記録する
 
 これを3つの自分のパスワードを構成するイラストに対して行う
