@@ -1,0 +1,21 @@
+{
+    "name": "Auto Key Fill",
+    "version": "1.0",
+    "description": "This is the extension to find and fill all keys.",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://idp.srp.tohoku.ac.jp/idp/Authn/External*"],
+            "css":["style.css"],
+            "js": ["script.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "icons": {
+        "16": "./asset/TOHOKU_logo_16.png",
+        "48": "./asset/TOHOKU_logo_48.png",
+        "128": "./asset/TOHOKU_logo_128.png"
+    },
+    "author": "Yuta Suzuki"
+
+}
