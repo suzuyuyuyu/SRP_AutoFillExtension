@@ -27,19 +27,14 @@ Chrome拡張機能です。
 
 フォルダーの構造
 ```
-AutoKeyFill
-│
-├ asset ┬ TOHOKU_logo_12.png
-│       │
-│       ├ TOHOKU_logo_48.png
-│       │
-│       └ TOHOKU_logo_128.png
-│
-├ manifest.json
-│
-├ script.js
-│
-└ style.css
+AutoKeyFill/
+├── asset/
+│   ├── TOHOKU_logo_12.png
+│   ├── TOHOKU_logo_48.png
+│   └── TOHOKU_logo_128.png
+├── manifest.json
+├── script.js
+└── style.css
 ```
 
 1. 上の図のような構造・ファイル名でフォルダーが構成されていることを確認する(フォルダーは一つにまとめること)
